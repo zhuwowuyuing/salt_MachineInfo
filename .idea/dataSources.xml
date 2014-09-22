@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3346628033">
+    <data-source source="LOCAL" name="Django default" uuid="e87d7ac5-b1bc-4092-821d-c05ba934eb6c">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.1.92:3316/salt_machineinfo</jdbc-url>
+      <user-name>salt</user-name>
+      <user-password>dfd9dfcbdfc6dfde</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+
+{{ info }}
+
+{% for hostname,item in info.items %}
+    <p>主机名:{{ hostname }}</p>
+    {% for key, value in item.items %}
+        <p>{{ key }} : {{ value }}</p>
+     {% endfor %}
+    <p>&nbsp;</p>
+{#info[hostname].setdefault('status', status)#}
+{#info[hostname].setdefault('cpu_model', cpu_model)#}
+{#info[hostname].setdefault('num_cpus', num_cpus)#}
+{#info[hostname].setdefault('mem_total', mem_total)#}
+{#info[hostname].setdefault('os', os)#}
+{#info[hostname].setdefault('productname', productname)#}
+{#info[hostname].setdefault('manufacturer', manufacturer)#}
+{#info[hostname].setdefault('disks', disks)#}
+{#info[hostname].setdefault('interfaces', interfaces)#}
+{##}
+{% endfor %}
+
+</body>
+</html>
